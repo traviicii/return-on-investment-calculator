@@ -34,7 +34,7 @@ class RentCalc():
         self.investent_total = 0
         self.cashflow = 0
 
-    def type_string(self, string, delay=0.03, newline = True): #custom self.type_string function creates the illusion of typing in real time
+    def type_string(self, string, delay=0.03, newline = True): #custom print function creates the illusion of typing in real time
         for char in string:
             sys.stdout.write(char) #write each character to the screen individually
             sys.stdout.flush() #this eliminates the 'buffer' in the system memory and allows each character to be 'flushed' to the screen after each time delay instead of waiting for the whole string to process and then self.type_stringing to the screen
