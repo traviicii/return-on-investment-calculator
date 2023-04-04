@@ -147,7 +147,7 @@ class RentCalc():
                 continue
         
         while True:
-            whopays = input("\nDoes the tenant pay for their own utilities? (Enter 1 or 2): 1 - [Tenant covers cost fo all utilities] / 2 - [I cover the cost of all utilities]\n(Utilities includes electricity, water, sewer, garbage, and gas.) ")
+            whopays = input("\nDoes the tenant pay for their own utilities? (Enter 1 or 2): 1 - [Tenant covers cost of all utilities] / 2 - [I cover the cost of all utilities]\n(Utilities includes electricity, water, sewer, garbage, and gas.) ")
             if int(whopays) == 2:
                 while True: #input for electricity
                     try:
